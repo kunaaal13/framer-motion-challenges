@@ -18,6 +18,7 @@ function SonnerPage() {
 
   function addToast({ title, message }: { title: string; message: string }) {
     const id = (Math.random() * 1000005).toString()
+    setHovered(false)
 
     setToasts([
       ...toasts,
