@@ -111,7 +111,7 @@ function ChipsPage() {
   return (
     <div className='flex h-dvh w-full items-center justify-center bg-[#0E0C0E] px-4 text-white'>
       <div className='w-full max-w-4xl'>
-        <h1 className='text-xl font-bold'>What are your favorite language?</h1>
+        <h1 className='text-xl font-bold'>What are your favorite sports?</h1>
 
         <MotionConfig
           transition={{

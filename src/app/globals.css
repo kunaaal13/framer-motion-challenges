@@ -67,3 +67,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+.basic-multi-step-fadeout {
+  -webkit-mask-image: linear-gradient(
+    #000,
+    #000 calc(100% - 80px),
+    transparent
+  );
+  mask-image: linear-gradient(#000, #000 calc(100% - 80px), transparent);
+}
