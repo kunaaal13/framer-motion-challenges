@@ -1,9 +1,9 @@
 'use client'
 
 import { cn } from '@/lib/utils'
-import { AnimatePresence, useAnimate, motion } from 'framer-motion'
+import { AnimatePresence, motion, useAnimate } from 'framer-motion'
 import { Minus, Plus } from 'lucide-react'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function NumberIncrementDecrement() {
   const [count, setCount] = useState(0)
@@ -46,7 +46,7 @@ function NumberIncrementDecrement() {
   }
 
   return (
-    <div className='w-full h-dvh flex flex-col items-center justify-center bg-black gap-8'>
+    <div className='w-full h-dvh flex flex-col items-center justify-center bg-black gap-8 text-3xl'>
       <div ref={scope} className='flex items-center gap-8 text-3xl'>
         <button
           onClick={decrement}
